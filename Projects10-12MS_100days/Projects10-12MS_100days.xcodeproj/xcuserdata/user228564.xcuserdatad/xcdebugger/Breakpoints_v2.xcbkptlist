@@ -3,4 +3,150 @@
    uuid = "A29AA1DB-4C36-44CD-97B4-5998353855B7"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EAC749C7-1CC2-4D61-92A0-609D5BAC292D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Projects10-12MS_100days/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "editName()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EAC749C7-1CC2-4D61-92A0-609D5BAC292D - fc214dbce9868f73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (__C.UIAlertAction) -&gt; () in Projects10_12MS_100days.DetailViewController.editName() -&gt; ()"
+                  moduleName = "Projects10-12MS_100days"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user228564/Documents/100DOS_Homework/Projects10-12MS_100days/Projects10-12MS_100days/Projects10-12MS_100days/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "449">
+               </Location>
+               <Location
+                  uuid = "EAC749C7-1CC2-4D61-92A0-609D5BAC292D - fc214dbce9868f73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (__C.UIAlertAction) -&gt; () in Projects10_12MS_100days.DetailViewController.editName() -&gt; ()"
+                  moduleName = "Projects10-12MS_100days"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user228564/Documents/100DOS_Homework/Projects10-12MS_100days/Projects10-12MS_100days/Projects10-12MS_100days/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "749">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC6D45CE-2650-4232-B4DD-EDD27319AEB8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Projects10-12MS_100days/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "editName()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E0935D2-F5D5-4352-93B2-572BFADC3A6F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Projects10-12MS_100days/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "editName()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2E0935D2-F5D5-4352-93B2-572BFADC3A6F - fc214dbce9868edc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (__C.UIAlertAction) -&gt; () in Projects10_12MS_100days.DetailViewController.editName() -&gt; ()"
+                  moduleName = "Projects10-12MS_100days"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user228564/Documents/100DOS_Homework/Projects10-12MS_100days/Projects10-12MS_100days/Projects10-12MS_100days/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1095">
+               </Location>
+               <Location
+                  uuid = "2E0935D2-F5D5-4352-93B2-572BFADC3A6F - 33074aade2d85ace"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 () -&gt; () in closure #1 (__C.UIAlertAction) -&gt; () in Projects10_12MS_100days.DetailViewController.editName() -&gt; ()"
+                  moduleName = "Projects10-12MS_100days"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user228564/Documents/100DOS_Homework/Projects10-12MS_100days/Projects10-12MS_100days/Projects10-12MS_100days/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "595516E5-B184-4B1F-B020-9D07FDCD45B3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Projects10-12MS_100days/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "editName()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "170A7DF9-30E5-497B-B970-684851E0E829"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Projects10-12MS_100days/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

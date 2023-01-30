@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UITableViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     var pictures = [Picture]()
+    var backFromDetailed = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,8 +23,11 @@ class ViewController: UITableViewController, UIImagePickerControllerDelegate, UI
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        pictures = loadPics()
-        tableView.reloadData()
+        if backFromDetailed {
+            pictures = loadPics()
+            tableView.reloadData()
+            backFromDetailed = false
+        }
 
     }
     
@@ -130,6 +134,7 @@ class ViewController: UITableViewController, UIImagePickerControllerDelegate, UI
         if let detailViewController = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController {
             detailViewController.pictures = pictures
             detailViewController.current = indexPath.row
+            backFromDetailed = true
             navigationController?.pushViewController(detailViewController, animated: true)
         }
     }

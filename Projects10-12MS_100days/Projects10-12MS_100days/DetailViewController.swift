@@ -32,9 +32,13 @@ class DetailViewController: UIViewController {
         ac.addTextField()
         ac.addAction(UIAlertAction(title: "OK", style: .default, handler:{ [weak self, weak ac] _ in
             if let newName = ac?.textFields?[0].text {
-                print(self!.picture.imageName)
+                
+                if let id = self?.pictures.firstIndex(where: { $0.imageID == self?.picture.imageID }) {
+                    self?.pictures[id].imageName = newName
+                }
+
                 self?.picture.imageName = newName
-                print(self!.picture.imageName)
+                
                 DispatchQueue.global().async {
                     if let picturesToSave = self?.pictures {
                         if let encodedPictures = try? JSONEncoder().encode(picturesToSave) {
